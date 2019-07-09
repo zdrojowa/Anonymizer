@@ -1,0 +1,22 @@
+{
+    "name": "kosinski/anonymizer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jakub Kosiński",
+            "email": "jakub.kosinski.99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Kosinski\\Anonymizer\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
