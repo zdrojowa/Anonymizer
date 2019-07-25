@@ -1,5 +1,6 @@
 {
     "name": "kosinski/anonymizer",
+	"version": "1.0",
     "type": "library",
     "authors": [
         {
