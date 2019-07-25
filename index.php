@@ -9,11 +9,5 @@ require __DIR__.'/vendor/autoload.php';
 $anonymizer = new \Kosinski\Anonymizer\Anonymizer();
 
 echo "<pre>";
-print_r($anonymizer->email([
-    "email_1" => 'kubakssk@gmail.com',
-    "email_2" => 'kubakssk@gmail.com',
-    "email_3" => 'kubakssk@gmail.com',
-    "email_4" => '12kubakssk@gmail.com',
-    'xddd@gmail.com'
-]));
+print_r($anonymizer->email(['kubakssk@gmail.com', 'kubakssk@gmail.com', 'kubakssk@gmail.com', 'kubakssk@gmail.com', 'kubakssk@gmail.com', 'kubakssk@gmail.com', 'kubakssk@gmail.com']));
 echo "</pre>";
